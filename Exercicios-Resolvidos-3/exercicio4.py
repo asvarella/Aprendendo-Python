@@ -6,17 +6,9 @@ de Fibonacci. F1 = 1, F2 = 1, F3 = 2, etc.
 '''
 
 entrada = int(input('Entrada: '))
+a,b = 1,1
 k = 1
-f1 = f2 = 1
-fibo = 0
-while k <= entrada:
-    if (k == 1 or k == 2):
-        fibo = 1
-    else:
-        fibo = f2 + f1
-        f1 = f2
-        f2 = fibo
-    print(f'F{k} = {fibo}')
+while k <= entrada-2:
+    a,b = b, a + b 
     k = k + 1
-
-        
+print(b)
