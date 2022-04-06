@@ -18,14 +18,13 @@ else:
         custo_final = tempo_total * 0.15
 '''
 #Solução Exercicio Extra:
-if(tempo_total < 200):
+if (tempo_total < 200):
     custo_final = tempo_total * 0.20
+elif (tempo_total <= 400):
+    custo_final = tempo_total * 0.18
+elif(tempo_total <= 800):
+    custo_final = tempo_total * 0.15
 else:
-    if(tempo_total <= 400):
-        custo_final = tempo_total * 0.18
-    elif(tempo_total > 800):
-        custo_final = tempo_total * 0.08
-    else:
-        custo_final = tempo_total * 0.15
+    custo_final = tempo_total * 0.08
 
 print(f'Sua conta de telefone apresenta uma cobrança de R$ {custo_final: .2f}')
