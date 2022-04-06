@@ -12,5 +12,3 @@ if(numLitros % 18 != 0):
     numLatas = numLatas + 1
 
 print (f'Total de latas a comprar: {numLatas}\nPreço total: R$ {numLatas*80: .2f}')
-
-

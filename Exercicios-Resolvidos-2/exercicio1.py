@@ -19,7 +19,7 @@ c = int(input('Lado 3: '))
 
 
 if ((a + b > c) and (b + c > a) and (a + c > b)):
-    if((a == b) and (a == c)): #subentende-se que b == c
+    if(a == b == c): #a == b and a == c and b == c em outras linguagens
         print ('É um triângulo equilátero!')
     elif((a == b) or (a == c) or (b == c)): #pelo menos dois lados são iguais
         print ('É um triângulo isósceles!')
