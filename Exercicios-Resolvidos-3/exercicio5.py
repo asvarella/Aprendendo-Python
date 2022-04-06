@@ -11,9 +11,7 @@ a = int(input('N1: '))
 b = int(input('N2: '))
 #encontrando mdc entre n1 e n2
 while b != 0:
-    r = a % b
-    a = b
-    b = r
+    a,b = b, a%b
 print(f'Máximo divisor comum é {a}')
 
 
