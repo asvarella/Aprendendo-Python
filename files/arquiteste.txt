@@ -1,0 +1,2 @@
+O terminal do vscode executou este código em ...\Documents\Code\Python.
+Caso tenha executado corretamente, este arquivo foi criado na pasta files deste repositório.
